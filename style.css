@@ -23,15 +23,19 @@ header,nav,main,aside,footer {
 /* Header */
 
  header {
+ 	margin-top: 80px;
  	max-width: 100%;
- 	border-radius: 60px;
- 	background: lightseagreen;
+ 	border-radius: 30px;
+ 	background-image: url(image/land.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
 	order: 1;
 	height: 80px;
 	flex: 0 1 100%;
 }
 
 h1 {
+	color: white;
 	position: absolute;
 	left: 20%;
 	font-weight: bolder;
@@ -51,12 +55,11 @@ a {
 }
 
 .container {
+	left: 15px;
+	margin-top: 10px;
 	font-family: sans-serif;
 	position: absolute;
-	left: 50px;
 	max-width: 1200px;
-	margin: 0 auto;
-	margin-top: 145px;
 	width: 100%;
 	z-index: 1;
 }
@@ -170,6 +173,7 @@ a {
 /* Main */
 
 main {
+	font-size: 1.2em;
 	background: lightyellow !important;
 	margin-top: 40px;
 	padding: 50px;
