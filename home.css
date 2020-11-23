@@ -1,15 +1,15 @@
 /* Body */
 
 body {
+	margin-left: 100px !important;
 	margin: 0px;
 	font-family: cursive;
-	background: lightyellow;
 }
 
 div {
 	display: flex;
 	flex-flow: row wrap;
-	min-width: 800px;
+	width: 1000px;
 	position: absolute;
 }
 
@@ -18,35 +18,6 @@ header,nav,main,aside,footer {
 	border-radius: 7px;
 	margin: 5px;
 	padding: 20px;
-}
-
-/* Header */
-
- header {
- 	margin-top: 80px;
- 	max-width: 100%;
- 	border-radius: 30px;
- 	background-image: url(image/land.jpg);
- 	background-repeat: no-repeat;
- 	background-size: cover;
-	order: 1;
-	height: 80px;
-	flex: 0 1 100%;
-}
-
-h1 {
-	color: white;
-	position: absolute;
-	left: 20%;
-	font-weight: bolder;
-	height: 30px;
-	animation: header 40s linear infinite 0s;
-}
-
-@keyframes header {
-	0% { left: 20% ;}
-	25% { left: 40% ;}
-	50% { left: 60%; }
 }
 
 /* Nav */
@@ -192,37 +163,6 @@ main {
 	left: 400px;
 	height: 10%;
 	width: 8%;
-}
-/* Aside */
-
-aside {
-	font-family: sans-serif;
-	height: 370px;
-	background: white;
-	order: 4;
-	flex: 0 1 200px; 
-}
-
-#arrow {
-	top: 310px;
-	height: 100px;
-	width: 75px;
-	right: 80px;
-	position: absolute;
-	animation: arrow 0.5s linear infinite 0s;
-}
-
-@keyframes arrow {
-	0% { width: 75px; top: 310px; }
-	100% { width: 100px; top: 350px;  }
-}
-
-#email {
-	position: absolute;
-	height: 100px;
-	width: 150px;
-	top: 450px;
-	right: 50px; 
 }
 
 /* Footer */
