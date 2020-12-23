@@ -1,0 +1,39 @@
+/* Header */
+
+#abc {
+	opacity: 100%;
+	border-bottom: 2px solid black;
+}
+
+/* Main */
+
+main h1 {
+	text-align: center;
+	font-size: 40px; 
+	text-decoration: underline;  
+}
+
+span {
+	color: red;
+	font-weight: bold;
+}
+
+main img {
+	margin-top: 100px;
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	height: 390px; 
+}
+
+#first {
+	padding-top: 100px;
+}
+
+#tag {
+	position: absolute;
+	top: 750px;
+	font-family: sans-serif;
+	filter: opacity(60%);
+	font-size: 15px;
+}

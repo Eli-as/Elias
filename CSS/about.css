@@ -1,0 +1,14 @@
+/* Header */
+
+#ab {
+	opacity: 100%;
+	border-bottom: 2px solid black;
+}
+
+/* Main */
+
+main img {
+	height: 300px;
+	float: right;
+	padding: 20px;
+}

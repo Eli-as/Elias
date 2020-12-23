@@ -1,0 +1,50 @@
+/* Header */
+
+#a {
+	opacity: 100%;
+	border-bottom: 2px solid black;
+}
+
+/* Main */
+
+main textarea {
+	height: 100px;
+	width: 400px;
+	padding: 30px;
+	margin: 50px;
+	font-size: 19px;
+}
+
+button {
+	position: absolute;
+	top: 380px;
+	font-size: 20px;
+}
+
+#social {
+	margin-top: 60px;
+}
+
+#social img {
+	padding: 10px;
+}
+
+#email {
+	background: red;
+}
+
+#fb {
+	background: blue;
+}
+
+#tw {
+	background: blue;
+}
+
+#ig {
+	background: brown;
+}
+
+#in {
+	background: black;
+}
